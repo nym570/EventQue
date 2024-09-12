@@ -1,0 +1,162 @@
+
+nav .logo{
+    width: 100%;
+}
+nav{
+    position: fixed;
+    z-index: 999;
+}
+.container-body{
+    margin: 10%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    justify-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px 0 25px 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+  } 
+  .container h1{
+    text-align:center; 
+    padding-left:15px; 
+    padding-right: 15px; 
+    padding-bottom: 20px
+    
+  }
+  
+  input, .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 8px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  input:hover, .btn:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .dummy{
+    background-color: #f2f2f2;
+    color: #f2f2f2;
+    
+  }
+  .guest {
+    background-color: gold;
+    color: white;
+    text-align: center;
+  }
+  .guest:hover{
+    background-color: #ffda37;
+  }
+  
+  input[type=submit] {
+    background-color: #3a9bdc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #8ecae6;
+  }
+  
+  .col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+    box-sizing: border-box;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 175px;
+  }
+  
+  .vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+  }
+  
+  .hide-md-lg {
+    display: none;
+  }
+  
+
+
+@media screen and (max-width:800px) {
+    .container-body{
+        margin: 10px ;
+        margin-top: 90px;
+    }
+    .col {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+      }
+      .vl {
+        display: none;
+      }
+      .hide-md-lg {
+        display: block;
+        text-align: center;
+      }
+      .container h3{
+        text-align:center; 
+        padding-bottom: 0px;
+        padding-top: 20px;
+      }
+      .container{
+        padding-top: 20px;
+    }
+    input, .btn {
+        margin-top: 0;
+    }
+    .hide-md-lg p{
+        margin: 10px;
+    }
+    
+    
+}
+
+@media screen and (max-width:400px) {
+    .container-body{
+        margin: 10px ;
+        margin-top: 90px;
+    }
+}
